@@ -40,3 +40,24 @@ Step 6: Enter the text in given text box and get the response from bot.
 * [AIML](http://www.alicebot.org/aiml.html) - Artificial Intelligence Markup Language for train the Bot
 * [Program Ab](https://code.google.com/archive/p/program-ab/) - The AIML 2.0 implementation
 
+
+To create sample data for applicants and jobdetails collection
+http://localhost:8080/applicants
+{
+  "applicantId": "202107010516112005",
+  "firstName": "Applicant1",
+  "lastName": "App",
+  "email": "applicant1@yopmail.com",
+  "phonenumber": "9597555836",
+  "jobId": "1",
+  "applicantStatus":"On Hold"
+}
+
+http://localhost:8080/jobdetails
+{
+  "jobId": 2,
+  "jobName": "Java Developer",
+  "jobDescription":"Java 6 + years experience",
+  "openPosition":6
+}
+
